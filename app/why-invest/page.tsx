@@ -1,5 +1,23 @@
+import { Metadata } from 'next';
 import { CallToAction } from '@/components/CallToAction';
 import { InvestNarela } from '@/components/InvestNarela';
+
+export const metadata: Metadata = {
+  title: "Why Invest In Narela? | Real Estate Insights",
+  description: "Understand the driving factors, transport networks and economic infrastructure making Narela Delhi's smartest property investment.",
+  openGraph: {
+    title: "Why Invest In Narela? | Real Estate Insights",
+    description: "Understand the driving factors, transport networks and economic infrastructure making Narela Delhi's smartest property investment.",
+    url: "https://investinnarela.in/why-invest",
+    siteName: "Invest In Narela",
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Why Invest In Narela? | Real Estate Insights",
+    description: "Understand the driving factors, transport networks and economic infrastructure making Narela Delhi's smartest property investment.",
+  },
+};
 
 export default function WhyInvestPage() {
   return (

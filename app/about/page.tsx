@@ -1,6 +1,24 @@
+import { Metadata } from 'next';
 import Image from 'next/image';
 import { Shield, Award, MapPin } from 'lucide-react';
 import { CallToAction } from '@/components/CallToAction';
+
+export const metadata: Metadata = {
+  title: "About Us | Invest In Narela",
+  description: "Learn about Invest In Narela, your trusted premium real estate advisory firm for high-ROI properties in Delhi.",
+  openGraph: {
+    title: "About Us | Invest In Narela",
+    description: "Learn about Invest In Narela, your trusted premium real estate advisory firm for high-ROI properties in Delhi.",
+    url: "https://investinnarela.in/about",
+    siteName: "Invest In Narela",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Us | Invest In Narela",
+    description: "Learn about Invest In Narela, your trusted premium real estate advisory firm for high-ROI properties in Delhi.",
+  },
+};
 
 export default function AboutPage() {
   return (

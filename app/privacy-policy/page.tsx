@@ -4,6 +4,18 @@ export const metadata: Metadata = {
   title: "Privacy Policy | Invest In Narela",
   description:
     "Privacy policy and data protection guidelines for Invest In Narela real estate clients.",
+  openGraph: {
+    title: "Privacy Policy | Invest In Narela",
+    description: "Privacy policy and data protection guidelines for Invest In Narela real estate clients.",
+    url: "https://investinnarela.in/privacy-policy",
+    siteName: "Invest In Narela",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Privacy Policy | Invest In Narela",
+    description: "Privacy policy and data protection guidelines for Invest In Narela real estate clients.",
+  },
 };
 
 export default function PrivacyPolicyPage() {

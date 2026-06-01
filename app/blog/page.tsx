@@ -1,4 +1,22 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: "Real Estate Insights | Invest In Narela",
+  description: "Latest real estate trends, investment guides, and infrastructure updates from Narela.",
+  openGraph: {
+    title: "Real Estate Insights | Invest In Narela",
+    description: "Latest real estate trends, investment guides, and infrastructure updates from Narela.",
+    url: "https://investinnarela.in/blog",
+    siteName: "Invest In Narela",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Real Estate Insights | Invest In Narela",
+    description: "Latest real estate trends, investment guides, and infrastructure updates from Narela.",
+  },
+};
 
 export default function BlogPage() {
   const posts = [

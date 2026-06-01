@@ -1,6 +1,24 @@
+import { Metadata } from 'next';
 import { FeaturedProperties } from "@/components/FeaturedProperties";
 import { PropertySearch } from "@/components/PropertySearch";
 import { CallToAction } from "@/components/CallToAction";
+
+export const metadata: Metadata = {
+  title: "Available Properties | Invest In Narela",
+  description: "Explore our exclusive collection of luxury residential units, high-footfall commercial spaces, and premium investment plots in Narela.",
+  openGraph: {
+    title: "Available Properties | Invest In Narela",
+    description: "Explore our exclusive collection of luxury residential units, high-footfall commercial spaces, and premium investment plots in Narela.",
+    url: "https://investinnarela.in/properties",
+    siteName: "Invest In Narela",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Available Properties | Invest In Narela",
+    description: "Explore our exclusive collection of luxury residential units, high-footfall commercial spaces, and premium investment plots in Narela.",
+  },
+};
 
 export default function PropertiesPage() {
   return (
@@ -17,7 +35,7 @@ export default function PropertiesPage() {
         <PropertySearch />
       </div>
 
-      <FeaturedProperties />
+      <FeaturedProperties showAll={true} />
       
       <CallToAction />
     </main>

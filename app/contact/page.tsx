@@ -1,5 +1,23 @@
+import { Metadata } from 'next';
 import { MapPin, Phone, Mail, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
+
+export const metadata: Metadata = {
+  title: "Contact Us | Invest In Narela",
+  description: "Contact the property experts at Invest In Narela. Call or visit our headquarters for real estate advice.",
+  openGraph: {
+    title: "Contact Us | Invest In Narela",
+    description: "Contact the property experts at Invest In Narela. Call or visit our headquarters for real estate advice.",
+    url: "https://investinnarela.in/contact",
+    siteName: "Invest In Narela",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Us | Invest In Narela",
+    description: "Contact the property experts at Invest In Narela. Call or visit our headquarters for real estate advice.",
+  },
+};
 
 export default function ContactPage() {
   return (

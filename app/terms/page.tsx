@@ -4,6 +4,18 @@ export const metadata: Metadata = {
   title: "Terms & Conditions | Invest In Narela",
   description:
     "Terms of service and operational agreements for Invest In Narela property deals.",
+  openGraph: {
+    title: "Terms & Conditions | Invest In Narela",
+    description: "Terms of service and operational agreements for Invest In Narela property deals.",
+    url: "https://investinnarela.in/terms",
+    siteName: "Invest In Narela",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Terms & Conditions | Invest In Narela",
+    description: "Terms of service and operational agreements for Invest In Narela property deals.",
+  },
 };
 
 export default function TermsPage() {
